@@ -10,9 +10,11 @@
 
 ## Example
 
-  var io = require('socket.io');
-  var MemcachedStore = require('socket.io-store-memcached');
-  io.set('store', new MemcachedStore('127.0.0.1:11211'));
+  var io = require('socket.io').listen(8080);
+  var MemcachedStore = require('../index');
+  io.set('store', new MemcachedStore({                                                                                                                                                                             
+    hosts: 'localhost:11211'
+  }));
 
 ## Options
 
