@@ -10,15 +10,15 @@
 
 ## Example
 
-  var io = require('socket.io').listen(8080);
-  var MemcachedStore = require('../index');
-  io.set('store', new MemcachedStore({                                                                                                                                                                             
-    hosts: 'localhost:11211'
-  }));
+    var io = require('socket.io').listen(8080);
+    var MemcachedStore = require('../index');
+    io.set('store', new MemcachedStore({                                                                                                                                                                             
+      hosts: 'localhost:11211'
+    }));
 
 ## Options
 
-    - `hosts` Memcached servers locations, can by string, array, hash.
+  - `hosts` Memcached servers locations, can by string, array, hash.
 
   For details see [node-memcached](http://github.com/3rd-Eden/node-memcached).
 

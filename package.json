@@ -4,7 +4,8 @@
   "description": "socket.io Memcached store",
   "version": "0.0.1",
   "repository": {
-    "url": ""
+    "type": "git",
+    "url": "git://github.com/nowelium/socket.io-store-memcached.git"
   },
   "engines": {
     "node": ">=v0.6.5"
@@ -13,5 +14,7 @@
     "socket.io": "0.8.7",
     "memcached": "0.0.5"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "homepage": "https://github.com/nowelium/socket.io-store-memcached",
+  "main": "./index"
 }
