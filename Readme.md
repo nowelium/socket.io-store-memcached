@@ -12,7 +12,7 @@
 
     var io = require('socket.io').listen(8080);
     var MemcachedStore = require('../index');
-    io.set('store', new MemcachedStore({                                                                                                                                                                             
+    io.set('store', new MemcachedStore({
       hosts: 'localhost:11211'
     }));
 
