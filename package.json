@@ -2,7 +2,7 @@
   "author": "Yusuke Hata",
   "name": "socket.io-store-memcached",
   "description": "socket.io Memcached store",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "repository": {
     "type": "git",
     "url": "git://github.com/nowelium/socket.io-store-memcached.git"
