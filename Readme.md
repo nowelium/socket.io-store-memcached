@@ -23,6 +23,7 @@
 
   - `memcachedStoreNamespace` Memcached key prefix, can by string: defaults 'socket.io_store'
   - `memcachedStoreExpires` Memcached expires, can by integer: defaults 0
+  - `nodeId` MemcachedPubSub unique nodeId can by string: defaults: `crypto.randomBytes(16).toString('hex')`
   - `memcachedStorePubSubId` MemcachedPubSub namespace, can by string: defaults 'socket.io_pubsub'
   - `memcachedStorePubSubInterval` MemcachedPubSub pool interval, can by integer: defaults 100 
 
