@@ -19,8 +19,12 @@
 ## Options
 
   - `hosts` Memcached servers locations, can by string, array, hash.
-
   For details see [node-memcached](http://github.com/3rd-Eden/node-memcached).
+
+  - `memcachedStoreNamespace` Memcached key prefix, can by string: defaults 'socket.io_store'
+  - `memcachedStoreExpires` Memcached expires, can by integer: defaults 0
+  - `memcachedStorePubSubId` MemcachedPubSub namespace, can by string: defaults 'socket.io_pubsub'
+  - `memcachedStorePubSubInterval` MemcachedPubSub pool interval, can by integer: defaults 100 
 
 ## License 
 
