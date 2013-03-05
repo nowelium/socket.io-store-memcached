@@ -11,8 +11,8 @@
     "node": ">=v0.6.5"
   },
   "dependencies": {
-    "socket.io": "0.8.7",
-    "memcached": "0.0.5"
+    "socket.io": "0.9.x",
+    "memcached": ">=0.0.5"
   },
   "devDependencies": {},
   "homepage": "https://github.com/nowelium/socket.io-store-memcached",
